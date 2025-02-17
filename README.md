@@ -30,7 +30,8 @@ Within the docker-compose.yml, enter the required credentials :
 
 # DBT Setup
 Change some variable with your snowflake database configuration in dbt_transform/profiles.yml
-'dbt_transform:
+'''
+dbt_transform:
   outputs:
     dev:
       account: <your account>
@@ -42,8 +43,8 @@ Change some variable with your snowflake database configuration in dbt_transform
       type: snowflake
       user: <your snowflake username>
       warehouse: <your snowflake warehouse name>
-  target: dev'
-
+  target: dev
+'''
 
 # Running Architecture
 1. 'docker-compose up --build -d'
