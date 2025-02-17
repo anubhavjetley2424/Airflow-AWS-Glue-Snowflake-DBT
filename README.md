@@ -1,4 +1,10 @@
 # Airflow - AWS Glue - Snowflake - DBT
+#** Architecture **
+![Architecture](https://github.com/user-attachments/assets/66205c59-54cb-4662-be05-8617d7712ea0)
+
+
+
+
 
 # Project Setup:
 ## Snowflake Setup
@@ -20,12 +26,12 @@
 
 # Docker Setup
 Within the docker-compose.yml, enter the required credentials :
-- SPOTIFY_CLIENT_ID: <SPOTIFY CLIENT ID>
-- SPOTIFY_CLIENT_SECRET: <SPOTIFY CLIENT SECRET>
-- WEATHER_API_KEY: <WEATHER API KEY>
-- AWS_REGION_NAME: <AWS REGION NAME>
-- AWS_SECRET_ACCESS_KEY: <AWS SECRET ACCESS KEY>
-- AWS_ACCESS_KEY_ID: <AWS ACCESS KEY ID>
+- SPOTIFY_CLIENT_ID: ``` <SPOTIFY CLIENT ID> ```
+- SPOTIFY_CLIENT_SECRET: ``` <SPOTIFY CLIENT SECRET> ```
+- WEATHER_API_KEY: ``` <WEATHER API KEY> ```
+- AWS_REGION_NAME: ``` <AWS REGION NAME> ```
+- AWS_SECRET_ACCESS_KEY: ``` <AWS SECRET ACCESS KEY> ```
+- AWS_ACCESS_KEY_ID: ``` <AWS ACCESS KEY ID> ```
 
 # DBT Setup
 Change some variable with your snowflake database configuration in dbt_transform/profiles.yml
