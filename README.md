@@ -5,8 +5,7 @@
 - Create Snowflake account (you can try with the free tier) and make sure to choose AWS as your cloud integration
 - Create new dataset within the PUBLIC schema
 - create tables for sg_christmas_playlist, sg_christmas_movies, sg_christmas_sales, sg_christmas_weather in CHRISTMAS_DATA database and PUBLIC schema
-- Run 'SELECT SYSTEM$ALLOWLIST();'
-get private link to get hostname and port for snowflake (reference) to connect your snowflake with your AWS Glue ETL later
+- Run ```SELECT SYSTEM$ALLOWLIST();``` in Snowflake SQL Notebook, get private link to get hostname and port for snowflake (reference) to connect your snowflake with your AWS Glue ETL later
 
 # AWS Setup
 - Create IAM ROLE in AWS for AWS for secret manager, s3 and AWS Glue
