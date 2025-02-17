@@ -1,5 +1,5 @@
 # Airflow - AWS Glue - Snowflake - DBT
-#** Architecture **
+# Architecture
 ![Architecture](https://github.com/user-attachments/assets/66205c59-54cb-4662-be05-8617d7712ea0)
 
 
