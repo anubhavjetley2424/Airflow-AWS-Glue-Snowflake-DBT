@@ -1,0 +1,13 @@
+dbt_transform:
+  outputs:
+    dev:
+      account: PKVYSCT-EH17705
+      database: CHRISTMAS_DATA
+      password: Nike2424242424
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      user: anubhavjetley2424
+      warehouse: COMPUTE_WH
+  target: dev
